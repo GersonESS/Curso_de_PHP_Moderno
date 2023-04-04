@@ -8,10 +8,10 @@
 </head>
 <body>
     <h1>
-        <?php 
-        echo "   Olá Mumdo!  \u{1F30E}";    
-        ?>
+        Dados do servidor
     </h1>
-    
+    <?php 
+    phpinfo();
+    ?>
 </body>
 </html>
